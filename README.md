@@ -14,7 +14,7 @@ A Laravel rebuild of the TFA1 POS application. It has four pages: Home, About, C
    composer install
 3. Create the environment file and app key:
    cp .env.example .env
-   php artisan key:generate
+   php artisan migrate --seed
 4. Run the development server:
    php artisan serve
 5. Open http://127.0.0.1:8000
